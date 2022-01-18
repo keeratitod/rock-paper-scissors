@@ -4,39 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rock Paper Scissors</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 10rem;
-            font-weight: bold;
-            font-size: xx-large;
-            font-family: Helvetica, sans-serif;
-        }
-        button {
-            color: pink;
-            background-color: black;
-            padding: 2rem;
-            width: 250px;
-            font-weight: bold;
-            font-size: xx-large;
-            font-family: Helvetica, sans-serif;
-        }
-        #result {
-            margin: 50px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    
+    <div>
+        <button id="rock"><i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+        </button>
+        <button id="paper"><i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+        </button>
+        <button id="scissors"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+        </button>
+    </div>
     <div id="result"></div>
 </body>
 </html>
